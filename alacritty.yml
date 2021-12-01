@@ -250,13 +250,13 @@ font:
   bold:
     family: SF Mono
     # family: IBM Plex Mono
-    style: Regular
+    style: Regular Bold
 
   # The italic font face
   italic:
     family: SF Mono
     # family: IBM Plex Mono
-    style: Regular
+    style: Regular Italic
 
   # Point size of the font
   size: 13.0
