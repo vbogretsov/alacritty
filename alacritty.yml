@@ -209,6 +209,7 @@ env:
   # TERM: alacritty-direct
 
 window:
+  opacity: 1
   dynamic_title: true
   # Window dimensions in character columns and lines
   # (changes require restart)
@@ -318,8 +319,6 @@ bell:
   duration: 0
 
 # Background opacity
-background_opacity: 1
-
 # Mouse bindings
 #
 # Currently doesn't support modifiers. Both the `mouse` and `action` fields must
@@ -555,6 +554,8 @@ key_bindings:
 
   # ZSH shortcuts
   - { key: G, mods: Command, chars: "\x07" }
+
+  - { key: T, mods: Command, action: CreateNewWindow }
   # - { key: H,        mods: Command, chars: "\x1b[D"                      }
   # - { key: J,        mods: Command, chars: "\x1b[B"                      }
   # - { key: K,        mods: Command, chars: "\x1b[A"                      }
