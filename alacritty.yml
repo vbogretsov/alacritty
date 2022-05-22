@@ -250,14 +250,14 @@ font:
   # The bold font face
   bold:
     family: SF Mono
-    # family: IBM Plex Mono
-    style: Regular Bold
+    # style: Regular
+    style: Bold
 
   # The italic font face
   italic:
     family: SF Mono
-    # family: IBM Plex Mono
-    style: Regular Italic
+    # style: Regular
+    style: Italic
 
   # Point size of the font
   size: 13.0
@@ -289,7 +289,7 @@ debug:
 # custom_cursor_colors: false
 
 # Colors (Solarized Dark)
-colors: *everforest_dark_medium
+colors: *everforest_dark_soft
   # Default colors
 
 # Visual Bell
